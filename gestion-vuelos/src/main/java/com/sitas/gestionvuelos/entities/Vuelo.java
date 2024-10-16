@@ -48,8 +48,11 @@ public class Vuelo {
     @Column(nullable = false)
     private String estadoVuelo;
 
-    // Constructor sin argumentos
     public Vuelo() {
+    }
+
+    // Constructor sin argumentos
+    public Vuelo(String v001, String comercial, String bogotá, String medellín, Object o, Object object, Object o1, Object object1, Object o2, Object object2, Object o3) {
     }
 
     // Constructor con argumentos

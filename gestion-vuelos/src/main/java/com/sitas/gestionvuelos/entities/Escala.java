@@ -1,8 +1,13 @@
 package com.sitas.gestionvuelos.entities;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 @Entity
+@Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Escala {
 
     @Id
