@@ -31,7 +31,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2-
 
       - name: Build and analyze
-        working-directory: gestion-vuelos
+        working-directory: .
         run: mvn clean verify sonar:sonar
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
