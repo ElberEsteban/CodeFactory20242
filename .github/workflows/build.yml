@@ -37,7 +37,7 @@ jobs:
           SONAR_URL: https://sonarcloud.io
 
       - name: Upload report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: sonar-report
           path: target/site/sonar
